@@ -8,7 +8,7 @@ using namespace cv;
 using namespace std;
 int main() {
     //convert image into gray image
-    Mat image = imread("/home/dzou/CLionProjects/ObjectDetection/lemur.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+    Mat image = imread("lemur.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 
     Mat CannyImage;
     vector<Vec4i> hierarchy;
